@@ -1,0 +1,7 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "id": "https://bit-jkraushaar.github.io/open-badges-example/issuer.json",
+    "type": "Issuer",
+    "name": "bit-jkraushaar Open Badges Example",
+    "url": "https://bit-jkraushaar.github.io/open-badges-example/"
+}

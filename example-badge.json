@@ -1,0 +1,12 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "id": "https://bit-jkraushaar.github.io/open-badges-example/example-badge.json",
+    "type": "BadgeClass",
+    "name": "Example Badge",
+    "description": "Created his first Open Badge",
+    "image": "https://bit-jkraushaar.github.io/open-badges-example/example-badge.png",
+    "criteria": "https://bit-jkraushaar.github.io/open-badges-example/example-badge.json",
+    "tags": ["example"],
+    "alignment": [ ],
+    "issuer": "https://bit-jkraushaar.github.io/open-badges-example/issuer.json"
+}
