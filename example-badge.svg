@@ -1,7 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:openbadges="http://openbadges.org" viewBox="0 0 400 400" width="400" height="400">
-  <openbadges:assertion verify="https://bit-jkraushaar.github.io/open-badges-example/example-badge.json"></openbadges:assertion>  
-  <style>
-@import url('https://fonts.googleapis.com/css?family=Indie%20Flower:700');</style>
+  <openbadges:assertion verify="https://bit-jkraushaar.github.io/open-badges-example/bit-jkraushaar-assertion.json">
+	<![CDATA[
+	   {
+			"@context": "https://w3id.org/openbadges/v2",
+			"type": "Assertion",
+			"id": "https://bit-jkraushaar.github.io/open-badges-example/bit-jkraushaar-assertion.json",
+			"recipient":
+			{
+				"type": "email",
+				"hashed": true,
+				"identity": "sha256$770A23C485AEB9CA38D7AB4F2E2BA858E3394EE351207859A08566C443D02530"
+			},
+			"badge": "https://bit-jkraushaar.github.io/open-badges-example/example-badge.json",
+			"verification":
+			{
+				"type": "hosted"
+			},
+			"issuedOn": "2022-10-07T06:00:00Z"
+		}
+    ]]>
+  </openbadges:assertion>  
   <svg viewBox="0 0 400 400" width="380" height="380" x="10" y="10">
 <path fill="#2B8383" d="M400.002,200.005c0,110.461-89.545,200.006-200.003,200.006C89.542,400.011,0,310.466,0,200.005  C0,89.552,89.542,0,199.999,0C310.457,0,400.002,89.552,400.002,200.005z"/>
 <path fill="#075B60" d="M249.061,383.112C147.929,410.203,44,350.201,16.895,249.072C-10.198,147.937,49.804,44.007,150.935,16.904  c101.133-27.092,205.079,32.903,232.169,134.04C410.203,252.082,350.193,356.014,249.061,383.112z"/>
