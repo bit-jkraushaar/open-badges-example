@@ -1,0 +1,17 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Assertion",
+    "id": "https://bit-jkraushaar.github.io/open-badges-example/bit-jkraushaar-assertion.json",
+    "recipient":
+    {
+        "type": "email",
+        "hashed": true,
+        "identity": "sha256$770A23C485AEB9CA38D7AB4F2E2BA858E3394EE351207859A08566C443D02530"
+    },
+    "badge": "https://bit-jkraushaar.github.io/open-badges-example/example-badge.json",
+    "verification":
+    {
+        "type": "hosted"
+    },
+    "issuedOn": "2022-10-07T06:00:00Z"
+}
